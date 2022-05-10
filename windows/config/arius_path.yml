@@ -1,0 +1,20 @@
+#empresa2
+filial_nome: Nome_da_empresa #NFCE FILIAL - 
+filial_server_local: pasta_onde_estao_arquivos_nfce #Y:\\NFCERESP\\14800340000292
+filial_hd_local: pasta_no_hd_de_backup #D:\\BACKUP-2022\\LOJA 2
+filial_compact: pasta_no_hd_de_backup
+filial_filePath: pasta_no_hd_de_backup
+filial_googlePath: pasta_no_hd_de_backup
+filial_link_drive: Codigo_da_pasta_no_google_Drive #1ZpmLmfE5btv_A7rGWGHQ364x3Y_T9xpE
+
+#retaguarda
+retaguarda_nome: nome_servidor #RETAGUARDA
+retaguarda_server_local: pasta_onde_estao_os_arquivos expdat. e nfe. #Z:\\
+retaguarda_hd_local: pasta_no_hd_de_bakcup #G:\\Backup ERP - RETAGUARDA\\Backup 2022 RETAGUARDA
+
+#kw
+kw_nome: nome_servidor_frente_de_loja #SERVIDOR KW -
+kw_server_local:  pasta_onde_estao_os_arquivos controle. e retag. #Y:\\backup
+kw_hd_local: G:\\BACKUP KW - FRENTE LOJA\\KW 2022
+
+#OBS: PREENCHA OS DADOS DE CONFIGURACAO PARA QUE SEJA POSSIVEL A EXECUCAO CORRETA
