@@ -8,8 +8,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-
-<img src="https://raw.githubusercontent.com/leandroSJ/backup-nfce/main/img/backup.PNG" alt="Programa_executando">
+<img src="https://raw.githubusercontent.com/leandroSJ/arius_backup_nfce_v2.0/master/windows/icon/backup_img.jpeg" alt="Programa_executando">
 
 > Programa desenvolvido para atender uma demanda local, com objetivo de consumir poucos recursos da máquina, projetado por Leandro de Jesus
 "Estudante e amante da tecnologia". É verdade que já existe soluções para esses problemas de backup como o próprio app do google drive, mas
