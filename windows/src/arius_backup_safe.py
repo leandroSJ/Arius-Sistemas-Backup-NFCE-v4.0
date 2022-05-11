@@ -140,7 +140,7 @@ class arius_backup: #arius_backup
             pass
 
     def stop(self): #stop if execution is manual        
-        player_input = str(input('BACKUP CONCLUIDO | Presione >> enter << para encerrar...'))
+        player_input = str(input('BACKUP CONCLUIDO | Pressione >> enter << para encerrar...'))
         if player_input != 0:
             sys.exit()                   
 #Atacado
