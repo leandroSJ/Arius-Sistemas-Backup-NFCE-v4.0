@@ -26,7 +26,7 @@ de criar uma solução simples, rápida e prática.
 - [x] remove a pasta que ficou sem compactação #>> `shutil.rmtree(self.hd_file)`
 - [x] Envia a Pasta compactada ao Google Drive #>> `archivo.Upload()`
 - [x] Copia arquivos de configuração do servidor KW, e Servidor ARIUS RETAGUARDA. para local designado pelo usuário no arquivo
-`configurar-bakckup.yml`
+`arius-path.yml`
 
 ## 💻 Pré-instalação
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
@@ -50,16 +50,18 @@ Para instalar o <arius_backup_nfce_v2.0>, siga estas etapas:
 
  pip install -r requirements.txt
 
- Execute o arquivo `quickstart.py` ele vai ser responsável por fazer sua autenticação no Google Drive
- Faça login com sua conta Google caso apareça algum aviso informando que O Google não verificou este app
- clique em avançar e em seguida clique em `Acessar Backup NFCE (não seguro)`
+ Execute o arquivo `quickstart.py` ele vai ser responsável por fazer sua autenticação
+ no Google Drive Faça login com sua conta Google caso apareça algum aviso informando que
+ O Google não verificou este app clique em avançar e em seguida clique em 
+ `Acessar Backup NFCE (não seguro)`
 
- Tenha calma não se assuste, o processo de autenticar uma aplicação que consome as apis do Google tem muita burocracia
- e exigências então eu optei por não fazer isso agora, por isso eles dizem que a aplicação não é segura.
+ Tenha calma não se assuste, o processo de autenticar uma aplicação que consome as apis
+ do Google tem muita burocracia e exigências então eu optei por não fazer isso agora, por
+ isso eles dizem que a aplicação não é segura.
  
  continue e faça login com seu e-mail e senha
- Agora perceba que um novo arquivo foi gerado com o nome credentials.json esse arquivo será responsavel por fazer a 
- autenticação a cada vez que você executar a aplicação.
+ Agora perceba que um novo arquivo foi gerado com o nome credentials.json esse arquivo será
+ responsavel por fazer a autenticação a cada vez que você executar a aplicação.
 
  Agora abra a pasta <config> e dite o arquivo `arius_path.yml`
 
@@ -69,18 +71,19 @@ filial_hd_local: local_onde_quer_copiar
 filial_compact: mesmo_local_para_compactar
 filial_filePath: mesmo_local_para_linkar_o_arquivo
 filial_googlePath: mesmo_local_para_mandar_para_google_drive
-filial_link_drive: Código da pasta -> entre na pasta do google drive e veja na url o código da pasta está sempre após o
-/folders/Código_da_pasta Geralmente é um monte de caracteres aleatório
+filial_link_drive: Código da pasta -> entre na pasta do google drive e veja na url o código da
+pasta está sempre após o /folders/Código_da_pasta Geralmente é um monte de caracteres aleatório
 
 Abra o arquivo `arius_path.yml` você verá um exemplo comentado com # ai talvez entenda melhor
 
-Feito isso basta executar seu programa se você tiver feito tudo certo ele vai iniciar o processo de Backup Em modo CLI e
-você pode acompanhar o processo que ele está executando
+Feito isso basta executar seu programa se você tiver feito tudo certo ele vai iniciar o processo de
+Backup Em modo CLI e você pode acompanhar o processo que ele está executando
 ```
 
 ## 📫 Contribuindo para <arius_backup_nfce_v2.0>
-<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com <nome_do_projeto>, siga estas etapas:
+<!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os 
+contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado---> Para contribuir com
+<nome_do_projeto>, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
@@ -88,7 +91,8 @@ Para contribuir com <nome_do_projeto>, siga estas etapas:
 4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
 5. Crie a solicitação de pull.
 
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+Como alternativa, consulte a documentação do GitHub em 
+[como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## 📝 Licença
 
