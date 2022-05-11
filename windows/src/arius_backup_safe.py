@@ -144,7 +144,7 @@ class arius_backup: #arius_backup
         if player_input != 0:
             sys.exit()                   
 #Atacado
-with open('C:\\Users\\EXPECTRO\\Documents\\arius_backup_nfce\\windows\\config\\arius_path.yml','r') as config:
+with open('C:\mude_o_caminho_para\arius_path.yml','r') as config:
     cfg = yaml.safe_load(config)
   
 nfe_filial = arius_backup(company_name=cfg["filial_nome"])
