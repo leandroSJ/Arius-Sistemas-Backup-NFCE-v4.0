@@ -26,7 +26,7 @@ de criar uma solução simples, rápida e prática.
 - [x] remove a pasta que ficou sem compactação #>> `shutil.rmtree(self.hd_file)`
 - [x] Envia a Pasta compactada ao Google Drive #>> `archivo.Upload()`
 - [x] Copia arquivos de configuração do servidor KW, e Servidor ARIUS RETAGUARDA. para local designado pelo usuário no arquivo
-`arius-path.yml`
+`arius_path.yml`
 
 ## 💻 Pré-instalação
 <!---Estes são apenas requisitos de exemplo. Adicionar, duplicar ou remover conforme necessário--->
