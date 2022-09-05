@@ -32,8 +32,7 @@ de criar uma solução simples, rápida e prática.
 * Instale a versão mais recente do `Python` se você não tem instalado em https://www.python.org/
 * Instale o ambiente virtual `pip install virtualenv`
 * Crie um ambiente virtual `python -m venv nome_do_ambiente`
-* Ative seu ambiente virtual abrindo o Windows Power shell como ADM e execute esse comando `Set-ExecutionPolicy -Scope CurrentUser 
-* -ExecutionPolicy RemoteSigned` digite S para aceitar e pronto.
+* Ative seu ambiente virtual abrindo o Windows Power shell como ADM e execute esse comando `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned` digite S para aceitar e pronto.
 * Agora basta abrir a pasta do projeto e executar no terminal o arquivo `Activate.ps1` localizado em `nome_do_ambiente\bin\Activate.ps1`
 * Atualize o pip `python -m pip install --upgrade pip`
 
@@ -42,7 +41,6 @@ de criar uma solução simples, rápida e prática.
 Para instalar o <arius_backup_nfce_v2.0>, siga estas etapas:
  
 
-```
  Suponho que já estar com seu ambiente todo preparado para instalar novos Pacotes
 
  Vamos instalar todas as pendências:
@@ -77,7 +75,6 @@ Abra o arquivo `arius_path.yml` você verá um exemplo comentado com # ai talvez
 
 Feito isso basta executar seu programa se você tiver feito tudo certo ele vai iniciar o processo de
 Backup Em modo CLI e você pode acompanhar o processo que ele está executando
-```
 
 ## 📫 Contribuindo para <arius_backup_nfce_v2.0>
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os 
