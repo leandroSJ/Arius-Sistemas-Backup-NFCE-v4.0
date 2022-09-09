@@ -1,83 +1,113 @@
-from datetime import date, timedelta
+from datetime import date, timedelta, datetime
 import shutil
 import yaml
 import os
+from py7zr import pack_7zarchive
 
 # Load google modules for Authentication
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
-from pydrive.files import FileNotUploadedError
  
 class arius_backup: #arius_backup
     def __init__(self, company_name):            
         self.last_day = str(date.today() - timedelta(days=1)) # return Year-Month-Date the last day ex: 2022-07-08
         self.company_name = company_name          #set name for company        
             
-    def copy_nfe(self, server, hd): #check file kw and erp if exist move to Hard disk
+    def copy_nfce(self, server, hd): #check file kw and erp if exist move to Hard disk
         for root, subFolder, filename in os.walk(server):
             for folder in subFolder:                
                 if self.last_day in folder:
                     self.server_file = os.path.join(root, folder)
                     self.hd_file = os.path.join(hd, self.month,folder)                
-                    try:                                                                                                 
-                        print(f'{self.company_name} Copiando arquivos.')
-                        shutil.copytree(self.server_file, self.hd_file)                    
-                        print(f'{self.company_name} Arquivos copiados para HD.')                                               
+                    try:                       
+                        log_data = datetime.now().strftime('%d/%m/%Y %H:%M:%S')                         
+                        file = open('C:\\backup_nfce\\windows\\config\\log_backup.txt', 'a')
+                        file.write(f'{log_data ,self.company_name} Copiando arquivos.\n')
+                              
+                        print(f'{self.company_name} Copiando arquivos.')                        
+                        shutil.copytree(self.server_file, self.hd_file)                                            
+                        print(f'{self.company_name} Arquivos copiados para HD.')
+                        file.write(f'{log_data, self.company_name} Arquivos copiados para HD.\n')
+                        file.close()                                                                                          
                         pass                                       
                     except PermissionError as e:
                         print(f'{self.company_name} Sem permissao para acessar o arquivo!\n\n')
                     except FileExistsError as e:
                         print(f'{self.company_name} Você ja fez backup deste arquivo!\n\n')
+                        log_data = datetime.now().strftime('%d/%m/%Y %H:%M:%S')                         
+                        file = open('C:\\backup_nfce\\windows\\config\\log_backup.txt', 'a')
+                        file.write(f'{log_data ,self.company_name} Você ja fez backup deste arquivo!\n')
+                        file.close()
                     except FileNotFoundError as e:
-                        print(f'{self.company_name} Arquivo não encontrado. \n\n')
+                        print(f'{self.company_name} Arquivo não encontrado. \n\n')                        
+                        log_data = datetime.now().strftime('%d/%m/%Y %H:%M:%S')                         
+                        file = open('C:\\backup_nfce\\windows\\config\\log_backup.txt', 'a')
+                        file.write(f'{log_data ,self.company_name} Arquivo não encontrado.!\n')
+                        file.close()
                     except shutil.SameFileError as e:
                         pass                      
 
-    def compress(self, path_name):#compress folders in format .zip to upload Google Drive
+    def compress(self, path_name):
         for root, subFolder, filename in os.walk(path_name): #walking on files
             for folder in subFolder:
-                if self.last_day in folder: #last_day is file backup with date yerterday YY-MM-DD
+                if self.last_day in folder:
                     name_archive = os.path.join(root, folder)                                     
-                    extension = 'zip' #I'll compress in zip        
+                    shutil.register_archive_format ( '7zip' ,  pack_7zarchive ,  description = '7zip archive' )
+                    extension = '7zip'        
                     local = name_archive                    
-                    try:                                                
+                    try:                                    
+                        log_data = datetime.now().strftime('%d/%m/%Y %H:%M:%S')           
+                        file = open('C:\\backup_nfce\\windows\\config\\log_backup.txt', 'a')
+                        file.write(f'{log_data, self.company_name} Compactando arquivos.\n') 
                         print(f'{self.company_name} Compactando arquivos.')
                         shutil.make_archive(name_archive, extension, local)   
                         print(f'{self.company_name} Arquivos compactados!')
+                        file.write(f'{log_data, self.company_name} Arquivos compactados em 7zip!\n') 
+                        file.close()
                     except FileExistsError as e:
                         print(f'{self.company_name} ESTE ARQUIVO JÁ FOI COMPACTADO!\n\n')
                     except FileNotFoundError as e:
-                        pass      
+                        pass
                                   
     def remove_folders(self, path_name):
             for root, subFolder, filename in os.walk(path_name):
                 for folder in subFolder:                
                     if self.last_day in folder:
                         try:
+                            log_data = datetime.now().strftime('%d/%m/%Y %H:%M:%S')           
+                            file = open('C:\\backup_nfce\\windows\\config\\log_backup.txt', 'a')
+                            file.write(f'{log_data, self.company_name} Removendo pastas sem compactação.\n')
+
                             print(f'{self.company_name} Removendo pasta sem compactação.')
                             shutil.rmtree(self.hd_file)
                             print(f'{self.company_name} Pastas removidas.')
+                            file.write(f'{log_data, self.company_name} Pastas removidas.\n')
+                            file.close()
                         except:
                             pass
                         
     def copy_kw_erp(self, path_f, path_dst): #checkfile kw and erp if exist move to Hard disk
-        date_today = date.today().strftime("%d-%m-%y") # return Date-Month-year ex: 08-07-21        
+        date_today = date.today().strftime("%d-%m-%y") # return Date-Month-year ex: 08-07-22        
 
         for root, dirs, files in os.walk(path_f):
             for file in files:                
                 if date_today in file:        
                     server = os.path.join(root, file)
                     hd = os.path.join(path_dst, self.month, file)                                                                                                                           
-                    try:                                                                                                                      
+                    try:      
+                        log_data = datetime.now().strftime('%d/%m/%Y %H:%M:%S')                                                                                                                
+                        file = open('C:\\backup_nfce\\windows\\config\\log_backup.txt', 'a')
+                        file.write(f'{log_data, self.company_name} Copiando arquivos.\n')                        
+                                                
                         print(f'{self.company_name} Copiando arquivos.\n')
                         shutil.copyfile(server, hd)
                         print(f'{self.company_name} Copiado com sucesso !\n\n')
+                        file.write(f'{log_data, self.company_name} Copiado Com sucesso !.\n')
+                        file.close()
                     except FileExistsError as e:
                         print(f'{self.company_name} O arquivo ja foi copiado\n\n')
                     except FileNotFoundError as e:
                         pass
-                    except SameFileError as e:
-                        print(f'{self.company_name}O arquivo ja foi copiado\n\n')
                 else:
                     pass
                                                         
@@ -131,29 +161,40 @@ class arius_backup: #arius_backup
         try:
             archivo['title'] = self.path_drive.split("\\")[-1]
             archivo.SetContentFile(self.path_drive)
-            print(f'{self.company_name} Enviando para google drive')
+
+            log_data = datetime.now().strftime('%d/%m/%Y %H:%M:%S')
+            file = open('C:\\backup_nfce\\windows\\config\\log_backup.txt', 'a')
+            file.write(f'{log_data, self.company_name} Enviando para google drive.\n')
+
+            print(f'\n\n{self.company_name} Enviando para google drive')
             archivo.Upload()
-            print(f'{self.company_name} Enviado com sucesso!\n\n')
+            print(f'\n\n{self.company_name} Enviado com sucesso!\n\n')
+            file.write(f'{log_data, self.company_name} Enviado com sucesso!.\n\n\n')
+            file.close()
         except AttributeError as e:
             pass
         except FileNotFoundError as e:
-            pass
+            pass    
 
-    def stop(self): #stop if execution is manual        
-        player_input = str(input('BACKUP CONCLUIDO | Pressione >> enter << para encerrar...'))
-        if player_input != 0:
-            sys.exit()                   
-#Atacado
-with open('C:\mude_o_caminho_para\arius_path.yml','r') as config:
+with open('C:\\backup_nfce\\windows\\config\\arius_path.yml','r') as config:
     cfg = yaml.safe_load(config)
-  
-nfe_filial = arius_backup(company_name=cfg["filial_nome"])
-nfe_filial.months()
-nfe_filial.copy_nfe(server=cfg["filial_server_local"],hd=cfg["filial_hd_local"])
-nfe_filial.compress(path_name=cfg["filial_compact"])
-nfe_filial.remove_folders(path_name=cfg["filial_compact"])
-nfe_filial.path_google_drive(file_path=cfg["filial_filePath"], google_path=cfg["filial_googlePath"])
-nfe_filial.file_upload(id_folder=cfg["filial_link_drive"])
+#Atacado
+    #NFCERESP
+nfce_resp = arius_backup(company_name=cfg["nome_nfceresp"])
+nfce_resp.months()
+nfce_resp.copy_nfce(server=cfg["servidor_nfceresp"],hd=cfg["hd_nfceresp"])
+nfce_resp.compress(path_name=cfg["hd_nfceresp"])
+nfce_resp.remove_folders(path_name=cfg["hd_nfceresp"])
+nfce_resp.path_google_drive(file_path=cfg["filePath_nfceresp"], google_path=cfg["fileUpload_nfceresp"])
+nfce_resp.file_upload(id_folder=cfg["link_drive_nfceresp"])
+    #NFCEPROC
+nfce_proc = arius_backup(company_name=cfg["nome_nfceproc"])
+nfce_proc.months()
+nfce_proc.copy_nfce(server=cfg["servidor_nfceproc"],hd=cfg["hd_nfceproc"])
+nfce_proc.compress(path_name=cfg["hd_nfceproc"])
+nfce_proc.remove_folders(path_name=cfg["hd_nfceproc"])
+nfce_proc.path_google_drive(file_path=cfg["filePath_nfceproc"], google_path=cfg["fileUpload_nfceproc"])
+nfce_proc.file_upload(id_folder=cfg["link_drive_nfceproc"])
 
 #KW
 retaguarda = arius_backup(company_name=cfg["retaguarda_nome"])
@@ -164,7 +205,3 @@ retaguarda.copy_kw_erp(path_f=cfg["retaguarda_server_local"], path_dst=cfg["reta
 kw = arius_backup(company_name=cfg["kw_nome"])
 kw.months()
 kw.copy_kw_erp(path_f=cfg["kw_server_local"], path_dst=cfg["kw_hd_local"])
-
-#PARAR EXECUÇAO
-stop = arius_backup('STOP: ')
-stop.stop()
