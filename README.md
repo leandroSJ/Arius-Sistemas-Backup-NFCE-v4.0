@@ -76,7 +76,7 @@ Abra o arquivo `arius_path.yml` você verá um exemplo comentado com # ai talvez
 Feito isso basta executar seu programa se você tiver feito tudo certo ele vai iniciar o processo de
 Backup Em modo CLI e você pode acompanhar o processo que ele está executando
 
-## 📫 Contribuindo para <arius_backup_nfce_v2.0>
+## 📫 Contribuindo para <arius_backup_nfce_v3.0>
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os 
 contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado---> Para contribuir com
 <nome_do_projeto>, siga estas etapas:
@@ -86,6 +86,7 @@ contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separa
 3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
 4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
 5. Crie a solicitação de pull.
+6. Qualquer dúvida entra em conta via e-mail: leandro.dejesus@outlook.com.br coloca no assunto arius_backup_nfce_v3.0
 
 Como alternativa, consulte a documentação do GitHub em 
 [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
