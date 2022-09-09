@@ -8,20 +8,20 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="https://raw.githubusercontent.com/leandroSJ/arius_backup_nfce_v2.0/master/windows/icon/backup_img.jpeg" alt="Programa_executando">
+<img src="https://raw.githubusercontent.com/leandroSJ/arius_backup_nfce_v2.0/master/windows/icon/log.png" alt="Imagem de log">
 
 > Programa desenvolvido para atender uma demanda local, com objetivo de consumir poucos recursos da máquina, projetado por Leandro de Jesus
 "Estudante e amante da tecnologia". É verdade que já existe soluções para esses problemas de backup como o próprio app do google drive, mas
 ele tem um pequeno defeito que é consumir muitos recursos das máquinas em que ele precisa ficar sincronizado, por isso sentir a necessidade
 de criar uma solução simples, rápida e prática.
 
-### O que o arius_backup_nfce_v2.0 faz?
+### O que o arius_backup_nfce_v3.0 faz?
 
 - [x] Faz uma varredura na rede do servidor através do loop #>> `for root, subFolder, filename in os.walk(server)`
 - [x] Consulta cada pasta e subpastas através do loop #>> `for folder in subFolder:`
 - [x] Verifica se existe alguma pasta com a data do dia anterior no formato AAA-MM-DD. com a condição #>> `if self.last_day in folder:`
 - [x] Se encontrar o arquivo inicia o processo de cópia #>> `shutil.copytree(self.server_file, self.hd_file)`
-- [x] Copacta o arquivo  no formato .zip no local em que foi copiado #>> `shutil.make_archive(name_archive, extension, local)`
+- [x] Copacta o arquivo  no formato .7zip no local em que foi copiado #>> `shutil.make_archive(name_archive, extension, local)`
 - [x] remove a pasta que ficou sem compactação #>> `shutil.rmtree(self.hd_file)`
 - [x] Envia a Pasta compactada ao Google Drive #>> `archivo.Upload()`
 - [x] Copia arquivos de configuração do servidor KW, e Servidor ARIUS RETAGUARDA. para local designado pelo usuário no arquivo
@@ -36,9 +36,9 @@ de criar uma solução simples, rápida e prática.
 * Agora basta abrir a pasta do projeto e executar no terminal o arquivo `Activate.ps1` localizado em `nome_do_ambiente\bin\Activate.ps1`
 * Atualize o pip `python -m pip install --upgrade pip`
 
-## 🚀 Instalando arius_backup_nfce_v2.0
+## 🚀 Instalando arius_backup_nfce_v3.0
 
-Para instalar o <arius_backup_nfce_v2.0>, siga estas etapas:
+Para instalar o <arius_backup_nfce_v3.0>, siga estas etapas:
  
 
  Suponho que já estar com seu ambiente todo preparado para instalar novos Pacotes
