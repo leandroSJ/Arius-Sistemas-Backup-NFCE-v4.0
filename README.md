@@ -40,7 +40,7 @@ de criar uma solução simples, rápida e prática.
 
 Para instalar o <arius_backup_nfce_v3.0>, siga estas etapas:
  
-
+ `Em breve terá um video explicando  e mostrando na prática`
  Suponho que já estar com seu ambiente todo preparado para instalar novos Pacotes
 
  Vamos instalar todas as pendências:
