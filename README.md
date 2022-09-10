@@ -1,4 +1,4 @@
-# arius_backup_nfce_v3.0 - Para usuários do sistema Arius
+# Arius-Sistemas-Backup-NFCE-v3.0 - Para usuários do sistema Arius
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -15,7 +15,7 @@
 ele tem um pequeno defeito que é consumir muitos recursos das máquinas em que ele precisa ficar sincronizado, por isso sentir a necessidade
 de criar uma solução simples, rápida e prática.
 
-### O que o arius_backup_nfce_v3.0 faz?
+### O que o Arius-Sistemas-Backup-NFCE-v3.0 faz?
 
 - [x] Faz uma varredura na rede do servidor através do loop #>> `for root, subFolder, filename in os.walk(server)`
 - [x] Consulta cada pasta e subpastas através do loop #>> `for folder in subFolder:`
@@ -36,9 +36,9 @@ de criar uma solução simples, rápida e prática.
 * Agora basta abrir a pasta do projeto e executar no terminal o arquivo `Activate.ps1` localizado em `nome_do_ambiente\bin\Activate.ps1`
 * Atualize o pip `python -m pip install --upgrade pip`
 
-## 🚀 Instalando arius_backup_nfce_v3.0
+## 🚀 Instalando Arius-Sistemas-Backup-NFCE-v3.0
 
-Para instalar o <arius_backup_nfce_v3.0>, siga estas etapas:
+Para instalar o <Arius-Sistemas-Backup-NFCE-v3.0>, siga estas etapas:
  
  `Em breve terá um video explicando  e mostrando na prática`
  Suponho que já estar com seu ambiente todo preparado para instalar novos Pacotes
@@ -76,7 +76,7 @@ Abra o arquivo `arius_path.yml` você verá um exemplo comentado com # ai talvez
 Feito isso basta executar seu programa se você tiver feito tudo certo ele vai iniciar o processo de
 Backup Em modo CLI e você pode acompanhar o processo que ele está executando
 
-## 📫 Contribuindo para <arius_backup_nfce_v3.0>
+## 📫 Contribuindo para <Arius-Sistemas-Backup-NFCE-v3.0>
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os 
 contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado---> Para contribuir com
 <nome_do_projeto>, siga estas etapas:
