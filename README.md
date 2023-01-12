@@ -51,8 +51,8 @@ baixe o python: https://www.python.org/ftp/python/3.11.1/python-3.11.1-embed-amd
 
 após fazer o download clique para instalar, na hora da instalação marque a 1ª caixinha [] para adicionar o python ao path do windows após concluir a instalação
 
-Baixe a pasta backup_nfce
-após concluir o download abra o explorador de arquivos e copie ela para o disco C:\
+Baixe a pasta Arius-Sistemas-Backup-NFCE-v4.0
+após concluir o download abra o explorador de arquivos altere o nome dela para `backup_nfce` e copie ela para o disco C:\
 
 -> entre na pasta `backup_nfce` > Acesse a pasta `dist`
 abra a pasta `backup-nfce-v4.0-2023`nessa pasta você vai encontrar o arquivo executável `backup-nfce-v4.0-2023.exe`
