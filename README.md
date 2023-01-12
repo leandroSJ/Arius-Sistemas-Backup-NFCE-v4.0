@@ -62,24 +62,8 @@ clique com o botão direito em cima deste arquivo e escolha a opção `enviar pa
 agora vá para a pasta  `config`localizada em C:\backup_nfce\config
 abra o arquivo `arius_path.yaml` com o bloco de notas e altere o local onde o servidor faz o backup dos arquivos xml. Se precisar de ajuda manda uma mensagem para mim no email leandrosj@proton.me que eu estou disposto a ajudar.
 
-#NFCERESP
-matriz_nome_nfceresp: NFCERESP "Nome da Empresa"
-matriz_servidor_nfceresp: Local_onde_servidor_salva_os_arquivos.xml
-matriz_hd_nfceresp: Local para onde você quer mandar os arquivos xml
-matriz_filePath_nfceresp: Local para onde você quer mandar os arquivos xml
-matriz_fileUpload_nfceresp: Local para onde você quer mandar os arquivos xml
-matriz_link_drive_nfceresp: nome da pasta no google drive "ex:1kogYMAwPdvnahbFoX6LeuEYQAxVe0W5M"
 
-retaguarda_nome: RETAGUARDA -
-retaguarda_server_local: Local onde fica salvo os arquivos expdate e nfe
-retaguarda_hd_local: D:\\Backup ERP - RETAGUARDA\\Backup 2023 RETAGUARDA
-retaguarda_filePath: D:\\Backup ERP - RETAGUARDA\\Backup 2023 RETAGUARDA
-retaguarda_fileUpload: D:\\Backup ERP - RETAGUARDA\\Backup 2023 RETAGUARDA
-
-kw_nome: SERVIDOR KW -
-kw_server_local: Y:\\backup
-kw_hd_local: Local para onde você quer mandar os arquivos xml
-kw_filePath: Local para onde você quer mandar os arquivos xml
+<img src="https://raw.githubusercontent.com/leandroSJ/Arius-Sistemas-Backup-NFCE-v4.0/main/icon/Captura de tela de 2023-01-11 23-02-15.png" alt="Tela do cmd windows">
 
 depois de definir os paths corretamente teste o programa. clique para executar o backup-nfce-v4.00-2023.exe que está na sua área de trabalho e veja o resultado.
 ```
