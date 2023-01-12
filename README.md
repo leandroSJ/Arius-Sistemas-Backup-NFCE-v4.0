@@ -11,15 +11,14 @@ Arius Sistemas Backup NFCE  - Realiza backups dos arquivos xml com informações
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-
-<img src="https://raw.githubusercontent.com/leandroSJ/backup-nfce/main/img/backup.PNG" alt="Tela do cmd windows">
+<img src="https://raw.githubusercontent.com/leandroSJ/Arius-Sistemas-Backup-NFCE-v4.0/main/icon/backup-nfce.png" alt="Tela do cmd windows">
 
 > Programa desenvolvido para atender uma demanda local, com objetivo de consumir poucos recursos da máquina, projetado por Leandro SJ "Estudante e amante da tecnologia". É verdade que já existe soluções para esses problemas de backup como o próprio app do google drive, mas ele tem um pequeno defeito que é consumir muitos recursos das máquinas em que ele precisa ficar sincronizado, por isso sentir a necessidade de criar uma solução simples, rápida e prática.
 ### O que o arius_backup_safe faz?
 
 - [x] Faz uma varredura na rede do servidor através do loop >> for root, subFolder, filename in os.walk(server)
 - [x] Consulta cada pasta e subpastas através do loop >> for folder in subFolder:
-- [x] Verifica se existe alguma pasta com a data do dia anterior no formato AAA-MM-DD. com a condição >> if self.last_day in folder:
+- [x] Verifica se existe alguma pasta com a data do dia anterior no formato AAAA-MM-DD. com a condição >> if self.last_day in folder:
 - [x] Se encontrar o arquivo inicia o processo de cópia >> shutil.copytree(self.server_file, self.hd_file)
 - [x] Compacta o arquivo  no formato 7zip no local em que foi copiado >> shutil.make_archive(name_archive, extension, local)   
 - [x] remove a pasta que ficou sem compactação >> shutil.rmtree(self.hd_file)
