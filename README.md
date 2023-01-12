@@ -1,7 +1,8 @@
 # Arius-Sistemas-Backup-NFCE-v3.0
 Arius Sistemas Backup NFCE  - Realiza backups dos arquivos xml com informações ficais de venda da empresa, ou seja, salva uma cópia do cupom fiscal "Nota fiscal do Consumidor Eletrônica" NFCE
 
-# Arius_backup_safe - feito Para usuários do sistema Arius
+# Arius_backup_NFCE - feito Para usuários do sistema Arius
+## Caso tenha interesse entre em contato que eu te explico como funciona
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
