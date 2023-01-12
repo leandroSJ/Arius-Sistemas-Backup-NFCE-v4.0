@@ -1,0 +1,372 @@
+('10/01/2023 10:30:15', 'NFCERESP FILIAL -') Copiando arquivos.
+('10/01/2023 10:30:15', 'NFCERESP FILIAL -') Arquivos copiados para HD.
+('10/01/2023 10:30:18', 'NFCERESP FILIAL -') Compactando arquivos.
+('10/01/2023 10:30:18', 'NFCERESP FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 10:30:18', 'NFCERESP FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 10:30:18', 'NFCERESP FILIAL -') Pastas removidas.
+('10/01/2023 10:30:18', 'NFCERESP FILIAL -') Enviando para google drive.
+('10/01/2023 10:30:18', 'NFCERESP FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 10:30:20', 'NFCEPROC FILIAL -') Copiando arquivos.
+('10/01/2023 10:30:20', 'NFCEPROC FILIAL -') Arquivos copiados para HD.
+('10/01/2023 10:30:23', 'NFCEPROC FILIAL -') Compactando arquivos.
+('10/01/2023 10:30:23', 'NFCEPROC FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 10:30:23', 'NFCEPROC FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 10:30:23', 'NFCEPROC FILIAL -') Pastas removidas.
+('10/01/2023 10:30:24', 'NFCEPROC FILIAL -') Enviando para google drive.
+('10/01/2023 10:30:24', 'NFCEPROC FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 10:30:25', 'NFCERESP VAREJAO -') Copiando arquivos.
+('10/01/2023 10:30:25', 'NFCERESP VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 10:30:29', 'NFCERESP VAREJAO -') Compactando arquivos.
+('10/01/2023 10:30:29', 'NFCERESP VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 10:30:30', 'NFCERESP VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 10:30:30', 'NFCERESP VAREJAO -') Pastas removidas.
+('10/01/2023 10:30:30', 'NFCERESP VAREJAO -') Enviando para google drive.
+('10/01/2023 10:30:30', 'NFCERESP VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 10:30:32', 'NFCEPROC VAREJAO -') Copiando arquivos.
+('10/01/2023 10:30:32', 'NFCEPROC VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 10:30:36', 'NFCEPROC VAREJAO -') Compactando arquivos.
+('10/01/2023 10:30:36', 'NFCEPROC VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 10:30:37', 'NFCEPROC VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 10:30:37', 'NFCEPROC VAREJAO -') Pastas removidas.
+('10/01/2023 10:30:37', 'NFCEPROC VAREJAO -') Enviando para google drive.
+('10/01/2023 10:30:37', 'NFCEPROC VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 10:30:39', 'NFCERESP MATRIZ -') Copiando arquivos.
+('10/01/2023 10:30:41', 'NFCERESP MATRIZ -') Você ja fez backup deste arquivo!
+('10/01/2023 10:34:19', 'NFCERESP MATRIZ -') Compactando arquivos.
+('10/01/2023 10:34:19', 'NFCERESP MATRIZ -') Arquivos compactados em 7zip!
+('10/01/2023 10:35:05', 'NFCERESP MATRIZ -') Removendo pastas sem compactação.
+('10/01/2023 10:35:05', 'NFCERESP MATRIZ -') Pastas removidas.
+('10/01/2023 10:35:14', 'NFCERESP MATRIZ -') Enviando para google drive.
+('10/01/2023 10:35:14', 'NFCERESP MATRIZ -') Enviado com sucesso!.
+
+
+('10/01/2023 10:35:17', 'NFCEPROC MATRIZ -') Copiando arquivos.
+('10/01/2023 10:35:17', 'NFCEPROC MATRIZ -') Você ja fez backup deste arquivo!
+('10/01/2023 10:38:25', 'NFCEPROC MATRIZ -') Compactando arquivos.
+('10/01/2023 10:38:25', 'NFCEPROC MATRIZ -') Arquivos compactados em 7zip!
+('10/01/2023 10:39:20', 'NFCEPROC MATRIZ -') Removendo pastas sem compactação.
+('10/01/2023 10:39:20', 'NFCEPROC MATRIZ -') Pastas removidas.
+('10/01/2023 10:39:31', 'NFCEPROC MATRIZ -') Enviando para google drive.
+('10/01/2023 10:39:31', 'NFCEPROC MATRIZ -') Enviado com sucesso!.
+
+
+('10/01/2023 10:41:00', 'NFCERESP FILIAL -') Copiando arquivos.
+('10/01/2023 10:41:00', 'NFCERESP FILIAL -') Arquivos copiados para HD.
+('10/01/2023 10:41:05', 'NFCERESP FILIAL -') Compactando arquivos.
+('10/01/2023 10:41:05', 'NFCERESP FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 10:41:05', 'NFCERESP FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 10:41:05', 'NFCERESP FILIAL -') Pastas removidas.
+('10/01/2023 10:41:05', 'NFCERESP FILIAL -') Enviando para google drive.
+('10/01/2023 10:41:05', 'NFCERESP FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 10:41:07', 'NFCEPROC FILIAL -') Copiando arquivos.
+('10/01/2023 10:41:07', 'NFCEPROC FILIAL -') Arquivos copiados para HD.
+('10/01/2023 10:41:11', 'NFCEPROC FILIAL -') Compactando arquivos.
+('10/01/2023 10:41:11', 'NFCEPROC FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 10:41:11', 'NFCEPROC FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 10:41:11', 'NFCEPROC FILIAL -') Pastas removidas.
+('10/01/2023 10:41:11', 'NFCEPROC FILIAL -') Enviando para google drive.
+('10/01/2023 10:41:11', 'NFCEPROC FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 10:41:13', 'NFCERESP VAREJAO -') Copiando arquivos.
+('10/01/2023 10:41:13', 'NFCERESP VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 10:41:18', 'NFCERESP VAREJAO -') Compactando arquivos.
+('10/01/2023 10:41:18', 'NFCERESP VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 10:41:18', 'NFCERESP VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 10:41:18', 'NFCERESP VAREJAO -') Pastas removidas.
+('10/01/2023 10:41:18', 'NFCERESP VAREJAO -') Enviando para google drive.
+('10/01/2023 10:41:18', 'NFCERESP VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 10:41:20', 'NFCEPROC VAREJAO -') Copiando arquivos.
+('10/01/2023 10:41:20', 'NFCEPROC VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 10:41:25', 'NFCEPROC VAREJAO -') Compactando arquivos.
+('10/01/2023 10:41:25', 'NFCEPROC VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 10:41:25', 'NFCEPROC VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 10:41:25', 'NFCEPROC VAREJAO -') Pastas removidas.
+('10/01/2023 10:41:25', 'NFCEPROC VAREJAO -') Enviando para google drive.
+('10/01/2023 10:41:25', 'NFCEPROC VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 10:41:27', 'NFCERESP MATRIZ -') Copiando arquivos.
+('10/01/2023 10:44:59', 'NFCERESP FILIAL -') Copiando arquivos.
+('10/01/2023 10:44:59', 'NFCERESP FILIAL -') Arquivos copiados para HD.
+('10/01/2023 10:45:05', 'NFCERESP FILIAL -') Compactando arquivos.
+('10/01/2023 10:45:05', 'NFCERESP FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 10:45:06', 'NFCERESP FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 10:45:06', 'NFCERESP FILIAL -') Pastas removidas.
+('10/01/2023 10:45:07', 'NFCERESP FILIAL -') Enviando para google drive.
+('10/01/2023 10:45:07', 'NFCERESP FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 10:45:09', 'NFCEPROC FILIAL -') Copiando arquivos.
+('10/01/2023 10:45:09', 'NFCEPROC FILIAL -') Arquivos copiados para HD.
+('10/01/2023 10:45:15', 'NFCEPROC FILIAL -') Compactando arquivos.
+('10/01/2023 10:45:15', 'NFCEPROC FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 10:45:15', 'NFCEPROC FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 10:45:15', 'NFCEPROC FILIAL -') Pastas removidas.
+('10/01/2023 10:45:15', 'NFCEPROC FILIAL -') Enviando para google drive.
+('10/01/2023 10:45:15', 'NFCEPROC FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 10:45:17', 'NFCERESP VAREJAO -') Copiando arquivos.
+('10/01/2023 10:45:17', 'NFCERESP VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 10:45:22', 'NFCERESP VAREJAO -') Compactando arquivos.
+('10/01/2023 10:45:22', 'NFCERESP VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 10:45:22', 'NFCERESP VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 10:45:22', 'NFCERESP VAREJAO -') Pastas removidas.
+('10/01/2023 10:45:22', 'NFCERESP VAREJAO -') Enviando para google drive.
+('10/01/2023 10:45:22', 'NFCERESP VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 10:45:24', 'NFCEPROC VAREJAO -') Copiando arquivos.
+('10/01/2023 10:45:24', 'NFCEPROC VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 10:45:31', 'NFCEPROC VAREJAO -') Compactando arquivos.
+('10/01/2023 10:45:31', 'NFCEPROC VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 10:45:31', 'NFCEPROC VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 10:45:31', 'NFCEPROC VAREJAO -') Pastas removidas.
+('10/01/2023 10:45:31', 'NFCEPROC VAREJAO -') Enviando para google drive.
+('10/01/2023 10:45:31', 'NFCEPROC VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 10:45:33', 'NFCERESP MATRIZ -') Copiando arquivos.
+('10/01/2023 10:45:34', 'NFCERESP MATRIZ -') Você ja fez backup deste arquivo!
+('10/01/2023 10:48:37', 'NFCERESP MATRIZ -') Compactando arquivos.
+('10/01/2023 10:48:37', 'NFCERESP MATRIZ -') Arquivos compactados em 7zip!
+('10/01/2023 10:49:28', 'NFCERESP MATRIZ -') Removendo pastas sem compactação.
+('10/01/2023 10:49:54', 'NFCERESP MATRIZ -') Enviando para google drive.
+('10/01/2023 10:49:54', 'NFCERESP MATRIZ -') Enviado com sucesso!.
+
+
+('10/01/2023 10:49:57', 'NFCEPROC MATRIZ -') Copiando arquivos.
+('10/01/2023 11:07:13', 'NFCERESP FILIAL -') Copiando arquivos.
+('10/01/2023 11:07:13', 'NFCERESP FILIAL -') Arquivos copiados para HD.
+('10/01/2023 11:07:17', 'NFCERESP FILIAL -') Compactando arquivos.
+('10/01/2023 11:07:17', 'NFCERESP FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 11:07:17', 'NFCERESP FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 11:07:17', 'NFCERESP FILIAL -') Pastas removidas.
+('10/01/2023 11:07:18', 'NFCERESP FILIAL -') Enviando para google drive.
+('10/01/2023 11:07:18', 'NFCERESP FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 11:07:21', 'NFCEPROC FILIAL -') Copiando arquivos.
+('10/01/2023 11:07:21', 'NFCEPROC FILIAL -') Arquivos copiados para HD.
+('10/01/2023 11:07:40', 'NFCEPROC FILIAL -') Compactando arquivos.
+('10/01/2023 11:07:40', 'NFCEPROC FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 11:07:41', 'NFCEPROC FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 11:07:41', 'NFCEPROC FILIAL -') Pastas removidas.
+('10/01/2023 11:07:41', 'NFCEPROC FILIAL -') Enviando para google drive.
+('10/01/2023 11:07:41', 'NFCEPROC FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 11:07:43', 'NFCERESP VAREJAO -') Copiando arquivos.
+('10/01/2023 11:07:43', 'NFCERESP VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 11:08:34', 'NFCERESP VAREJAO -') Compactando arquivos.
+('10/01/2023 11:08:34', 'NFCERESP VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 11:08:43', 'NFCERESP VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 11:08:43', 'NFCERESP VAREJAO -') Pastas removidas.
+('10/01/2023 11:08:45', 'NFCERESP VAREJAO -') Enviando para google drive.
+('10/01/2023 11:08:45', 'NFCERESP VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 11:08:47', 'NFCEPROC VAREJAO -') Copiando arquivos.
+('10/01/2023 11:08:47', 'NFCEPROC VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 11:09:26', 'NFCEPROC VAREJAO -') Compactando arquivos.
+('10/01/2023 11:09:26', 'NFCEPROC VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 11:09:28', 'NFCEPROC VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 11:09:28', 'NFCEPROC VAREJAO -') Pastas removidas.
+('10/01/2023 11:09:29', 'NFCEPROC VAREJAO -') Enviando para google drive.
+('10/01/2023 11:09:29', 'NFCEPROC VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 11:09:31', 'NFCERESP MATRIZ -') Copiando arquivos.
+('10/01/2023 13:24:03', 'NFCERESP FILIAL -') Copiando arquivos.
+('10/01/2023 13:24:03', 'NFCERESP FILIAL -') Arquivos copiados para HD.
+('10/01/2023 13:24:07', 'NFCERESP FILIAL -') Compactando arquivos.
+('10/01/2023 13:24:07', 'NFCERESP FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 13:24:07', 'NFCERESP FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 13:24:07', 'NFCERESP FILIAL -') Pastas removidas.
+('10/01/2023 13:24:07', 'NFCERESP FILIAL -') Enviando para google drive.
+('10/01/2023 13:24:07', 'NFCERESP FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 13:24:10', 'NFCEPROC FILIAL -') Copiando arquivos.
+('10/01/2023 13:24:10', 'NFCEPROC FILIAL -') Arquivos copiados para HD.
+('10/01/2023 13:24:13', 'NFCEPROC FILIAL -') Compactando arquivos.
+('10/01/2023 13:24:13', 'NFCEPROC FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 13:24:13', 'NFCEPROC FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 13:24:13', 'NFCEPROC FILIAL -') Pastas removidas.
+('10/01/2023 13:24:13', 'NFCEPROC FILIAL -') Enviando para google drive.
+('10/01/2023 13:24:13', 'NFCEPROC FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 13:24:15', 'NFCERESP VAREJAO -') Copiando arquivos.
+('10/01/2023 13:24:15', 'NFCERESP VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 13:24:19', 'NFCERESP VAREJAO -') Compactando arquivos.
+('10/01/2023 13:24:19', 'NFCERESP VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 13:24:20', 'NFCERESP VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 13:24:20', 'NFCERESP VAREJAO -') Pastas removidas.
+('10/01/2023 13:24:20', 'NFCERESP VAREJAO -') Enviando para google drive.
+('10/01/2023 13:24:20', 'NFCERESP VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 13:24:22', 'NFCEPROC VAREJAO -') Copiando arquivos.
+('10/01/2023 13:24:22', 'NFCEPROC VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 13:24:25', 'NFCEPROC VAREJAO -') Compactando arquivos.
+('10/01/2023 13:24:25', 'NFCEPROC VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 13:24:26', 'NFCEPROC VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 13:24:26', 'NFCEPROC VAREJAO -') Pastas removidas.
+('10/01/2023 13:24:26', 'NFCEPROC VAREJAO -') Enviando para google drive.
+('10/01/2023 13:24:26', 'NFCEPROC VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 13:24:28', 'NFCERESP MATRIZ -') Copiando arquivos.
+('10/01/2023 13:24:28', 'NFCERESP MATRIZ -') Você ja fez backup deste arquivo!
+('10/01/2023 13:27:00', 'NFCERESP MATRIZ -') Compactando arquivos.
+('10/01/2023 13:27:00', 'NFCERESP MATRIZ -') Arquivos compactados em 7zip!
+('10/01/2023 13:27:42', 'NFCERESP MATRIZ -') Removendo pastas sem compactação.
+('10/01/2023 13:27:42', 'NFCERESP MATRIZ -') Pastas removidas.
+('10/01/2023 13:27:51', 'NFCERESP MATRIZ -') Enviando para google drive.
+('10/01/2023 13:27:51', 'NFCERESP MATRIZ -') Enviado com sucesso!.
+
+
+('10/01/2023 13:27:54', 'NFCEPROC MATRIZ -') Copiando arquivos.
+('10/01/2023 13:27:54', 'NFCEPROC MATRIZ -') Arquivos copiados para HD.
+('10/01/2023 13:32:32', 'NFCEPROC MATRIZ -') Compactando arquivos.
+('10/01/2023 13:32:32', 'NFCEPROC MATRIZ -') Arquivos compactados em 7zip!
+('10/01/2023 13:33:13', 'NFCEPROC MATRIZ -') Removendo pastas sem compactação.
+('10/01/2023 13:33:13', 'NFCEPROC MATRIZ -') Pastas removidas.
+('10/01/2023 13:33:22', 'NFCEPROC MATRIZ -') Enviando para google drive.
+('10/01/2023 13:33:22', 'NFCEPROC MATRIZ -') Enviado com sucesso!.
+
+
+('10/01/2023 13:42:23', 'NFCERESP FILIAL -') Copiando arquivos.
+('10/01/2023 13:42:23', 'NFCERESP FILIAL -') Você ja fez backup deste arquivo!
+('10/01/2023 13:42:25', 'NFCERESP FILIAL -') Compactando arquivos.
+('10/01/2023 13:42:25', 'NFCERESP FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 13:42:25', 'NFCERESP FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 13:42:25', 'NFCERESP FILIAL -') Pastas removidas.
+('10/01/2023 13:42:25', 'NFCERESP FILIAL -') Enviando para google drive.
+('10/01/2023 13:42:25', 'NFCERESP FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 13:42:28', 'NFCEPROC FILIAL -') Copiando arquivos.
+('10/01/2023 13:42:28', 'NFCEPROC FILIAL -') Arquivos copiados para HD.
+('10/01/2023 13:42:31', 'NFCEPROC FILIAL -') Compactando arquivos.
+('10/01/2023 13:42:31', 'NFCEPROC FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 13:42:31', 'NFCEPROC FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 13:42:31', 'NFCEPROC FILIAL -') Pastas removidas.
+('10/01/2023 13:42:31', 'NFCEPROC FILIAL -') Enviando para google drive.
+('10/01/2023 13:42:31', 'NFCEPROC FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 13:42:34', 'NFCERESP VAREJAO -') Copiando arquivos.
+('10/01/2023 13:42:34', 'NFCERESP VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 13:42:38', 'NFCERESP VAREJAO -') Compactando arquivos.
+('10/01/2023 13:42:38', 'NFCERESP VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 13:42:39', 'NFCERESP VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 13:42:39', 'NFCERESP VAREJAO -') Pastas removidas.
+('10/01/2023 13:42:39', 'NFCERESP VAREJAO -') Enviando para google drive.
+('10/01/2023 13:42:39', 'NFCERESP VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 13:42:41', 'NFCEPROC VAREJAO -') Copiando arquivos.
+('10/01/2023 13:42:41', 'NFCEPROC VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 13:42:45', 'NFCEPROC VAREJAO -') Compactando arquivos.
+('10/01/2023 13:42:45', 'NFCEPROC VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 13:42:46', 'NFCEPROC VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 13:42:46', 'NFCEPROC VAREJAO -') Pastas removidas.
+('10/01/2023 13:42:46', 'NFCEPROC VAREJAO -') Enviando para google drive.
+('10/01/2023 13:42:46', 'NFCEPROC VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 13:42:48', 'NFCERESP MATRIZ -') Copiando arquivos.
+('10/01/2023 13:42:48', 'NFCERESP MATRIZ -') Arquivos copiados para HD.
+('10/01/2023 13:46:56', 'NFCERESP MATRIZ -') Compactando arquivos.
+('10/01/2023 13:46:56', 'NFCERESP MATRIZ -') Arquivos compactados em 7zip!
+('10/01/2023 13:47:04', 'NFCERESP MATRIZ -') Removendo pastas sem compactação.
+('10/01/2023 13:47:04', 'NFCERESP MATRIZ -') Pastas removidas.
+('10/01/2023 13:47:06', 'NFCERESP MATRIZ -') Enviando para google drive.
+('10/01/2023 13:47:06', 'NFCERESP MATRIZ -') Enviado com sucesso!.
+
+
+('10/01/2023 13:47:09', 'NFCEPROC MATRIZ -') Copiando arquivos.
+('10/01/2023 13:47:09', 'NFCEPROC MATRIZ -') Arquivos copiados para HD.
+('10/01/2023 13:50:19', 'NFCEPROC MATRIZ -') Compactando arquivos.
+('10/01/2023 13:50:19', 'NFCEPROC MATRIZ -') Arquivos compactados em 7zip!
+('10/01/2023 13:50:30', 'NFCEPROC MATRIZ -') Removendo pastas sem compactação.
+('10/01/2023 13:50:30', 'NFCEPROC MATRIZ -') Pastas removidas.
+('10/01/2023 13:50:33', 'NFCEPROC MATRIZ -') Enviando para google drive.
+('10/01/2023 13:50:33', 'NFCEPROC MATRIZ -') Enviado com sucesso!.
+
+
+('10/01/2023 13:50:53', 'NFCERESP FILIAL -') Copiando arquivos.
+('10/01/2023 13:50:53', 'NFCERESP FILIAL -') Arquivos copiados para HD.
+('10/01/2023 13:51:01', 'NFCERESP FILIAL -') Compactando arquivos.
+('10/01/2023 13:51:01', 'NFCERESP FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 13:51:03', 'NFCERESP FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 13:51:03', 'NFCERESP FILIAL -') Pastas removidas.
+('10/01/2023 13:51:04', 'NFCERESP FILIAL -') Enviando para google drive.
+('10/01/2023 13:51:04', 'NFCERESP FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 13:51:06', 'NFCEPROC FILIAL -') Copiando arquivos.
+('10/01/2023 13:51:06', 'NFCEPROC FILIAL -') Arquivos copiados para HD.
+('10/01/2023 13:51:48', 'NFCEPROC FILIAL -') Compactando arquivos.
+('10/01/2023 13:51:48', 'NFCEPROC FILIAL -') Arquivos compactados em 7zip!
+('10/01/2023 13:51:50', 'NFCEPROC FILIAL -') Removendo pastas sem compactação.
+('10/01/2023 13:51:50', 'NFCEPROC FILIAL -') Pastas removidas.
+('10/01/2023 13:51:51', 'NFCEPROC FILIAL -') Enviando para google drive.
+('10/01/2023 13:51:51', 'NFCEPROC FILIAL -') Enviado com sucesso!.
+
+
+('10/01/2023 13:51:53', 'NFCERESP VAREJAO -') Copiando arquivos.
+('10/01/2023 13:51:53', 'NFCERESP VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 13:52:21', 'NFCERESP VAREJAO -') Compactando arquivos.
+('10/01/2023 13:52:21', 'NFCERESP VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 13:52:22', 'NFCERESP VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 13:52:22', 'NFCERESP VAREJAO -') Pastas removidas.
+('10/01/2023 13:52:23', 'NFCERESP VAREJAO -') Enviando para google drive.
+('10/01/2023 13:52:23', 'NFCERESP VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 13:52:25', 'NFCEPROC VAREJAO -') Copiando arquivos.
+('10/01/2023 13:52:25', 'NFCEPROC VAREJAO -') Arquivos copiados para HD.
+('10/01/2023 13:52:56', 'NFCEPROC VAREJAO -') Compactando arquivos.
+('10/01/2023 13:52:56', 'NFCEPROC VAREJAO -') Arquivos compactados em 7zip!
+('10/01/2023 13:52:57', 'NFCEPROC VAREJAO -') Removendo pastas sem compactação.
+('10/01/2023 13:52:57', 'NFCEPROC VAREJAO -') Pastas removidas.
+('10/01/2023 13:52:57', 'NFCEPROC VAREJAO -') Enviando para google drive.
+('10/01/2023 13:52:57', 'NFCEPROC VAREJAO -') Enviado com sucesso!.
+
+
+('10/01/2023 13:53:00', 'NFCERESP MATRIZ -') Copiando arquivos.
+('10/01/2023 13:53:01', 'NFCERESP MATRIZ -') Você ja fez backup deste arquivo!
+('10/01/2023 13:57:38', 'NFCERESP MATRIZ -') Compactando arquivos.
+('10/01/2023 13:57:38', 'NFCERESP MATRIZ -') Arquivos compactados em 7zip!
+('10/01/2023 13:57:40', 'NFCERESP MATRIZ -') Removendo pastas sem compactação.
+('10/01/2023 13:57:40', 'NFCERESP MATRIZ -') Pastas removidas.
+('10/01/2023 13:57:41', 'NFCERESP MATRIZ -') Enviando para google drive.
+('10/01/2023 13:57:41', 'NFCERESP MATRIZ -') Enviado com sucesso!.
+
+
+('10/01/2023 13:57:44', 'NFCEPROC MATRIZ -') Copiando arquivos.
+('10/01/2023 13:57:44', 'NFCEPROC MATRIZ -') Você ja fez backup deste arquivo!
+('10/01/2023 14:01:37', 'NFCEPROC MATRIZ -') Compactando arquivos.
+('10/01/2023 14:01:37', 'NFCEPROC MATRIZ -') Arquivos compactados em 7zip!
+('10/01/2023 14:02:27', 'NFCEPROC MATRIZ -') Removendo pastas sem compactação.
+('10/01/2023 14:02:27', 'NFCEPROC MATRIZ -') Pastas removidas.
+('10/01/2023 14:02:49', 'NFCEPROC MATRIZ -') Enviando para google drive.
+('10/01/2023 14:02:49', 'NFCEPROC MATRIZ -') Enviado com sucesso!.
+
+

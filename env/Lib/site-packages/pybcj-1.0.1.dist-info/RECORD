@@ -1,0 +1,12 @@
+bcj/__init__.py,sha256=JvrNLTDXzox-amQi8-Ab8qi9pB-shuJrh3ueWai8EUg,1864
+bcj/__pycache__/__init__.cpython-311.pyc,,
+bcj/__pycache__/_bcjfilter.cpython-311.pyc,,
+bcj/_bcj.cp311-win_amd64.pyd,sha256=FYYbBLBqx22AyuNjD_HOTT4s9KcX8bhibijfAsRSUtk,22528
+bcj/_bcjfilter.py,sha256=D-ZOdKNv33wdAMQo3ifdo0o6-FhwVP_r4R-HxzWAiso,9699
+bcj/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybcj-1.0.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+pybcj-1.0.1.dist-info/LICENSE,sha256=Hn5rrlpb3jLxrlp8N6CC0asDz4k1T3-TasQL6eOaZTE,27032
+pybcj-1.0.1.dist-info/METADATA,sha256=j4v2P1ZnkdymTMKgHBOXx0kYt-Z2oSxV7gmvI8F78vw,4090
+pybcj-1.0.1.dist-info/RECORD,,
+pybcj-1.0.1.dist-info/WHEEL,sha256=TxwUeV-3HEbjjXVQ7qnUZIKQ4IinhZYV_rmkwq84M_Y,102
+pybcj-1.0.1.dist-info/top_level.txt,sha256=2r0jCKebdlAr6_TXgnFQYqckBhcN6NlK3QfWvZXM85Q,4

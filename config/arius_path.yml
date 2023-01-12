@@ -1,0 +1,56 @@
+#NFCERESP
+filial_nome_nfceresp: NFCERESP FILIAL - 
+filial_servidor_nfceresp: Y:\\NFCERESP\\14800340000292
+filial_hd_nfceresp: D:\\BACKUP NFCE GESTAO LOJA02\\NFCE2023\\NFCERESP
+filial_filePath_nfceresp: D:\\BACKUP NFCE GESTAO LOJA02\\NFCE2023\\NFCERESP
+filial_fileUpload_nfceresp: D:\\BACKUP NFCE GESTAO LOJA02\\NFCE2023\\NFCERESP
+filial_link_drive_nfceresp: 1p-FX68CN23bR5yCZ-uG0uWSUkpalEicQ
+  #NFCEPROC
+filial_nome_nfceproc: NFCEPROC FILIAL - 
+filial_servidor_nfceproc: Y:\\NFCEPROC\\14800340000292
+filial_hd_nfceproc: D:\\BACKUP NFCE GESTAO LOJA02\\NFCE2023\\NFCEPROC
+filial_filePath_nfceproc: D:\\BACKUP NFCE GESTAO LOJA02\\NFCE2023\\NFCEPROC
+filial_fileUpload_nfceproc: D:\\BACKUP NFCE GESTAO LOJA02\\NFCE2023\\NFCEPROC
+filial_link_drive_nfceproc: 1yLfZPHoPPIZhkUGcF_Yaxvd908XPS-ZN
+
+#NFCERESP
+varejao_nome_nfceresp: NFCERESP VAREJAO - 
+varejao_servidor_nfceresp: Y:\\NFCERESP\\13847272000173
+varejao_hd_nfceresp: D:\\BACKUP NFCE GESTAO LOJA03\\NFCE2023\\NFCERESP
+varejao_filePath_nfceresp: D:\\BACKUP NFCE GESTAO LOJA03\\NFCE2023\\NFCERESP
+varejao_fileUpload_nfceresp: D:\\BACKUP NFCE GESTAO LOJA03\\NFCE2023\\NFCERESP
+varejao_link_drive_nfceresp: 1BDlWuYfoBiKbTUpZVotSEB7bZGH4Y5Wu
+  #NFCEPROC  
+varejao_nome_nfceproc: NFCEPROC VAREJAO - 
+varejao_servidor_nfceproc: Y:\\NFCEPROC\\13847272000173
+varejao_hd_nfceproc: D:\\BACKUP NFCE GESTAO LOJA03\\NFCE2023\\NFCEPROC
+varejao_filePath_nfceproc: D:\\BACKUP NFCE GESTAO LOJA03\\NFCE2023\\NFCEPROC
+varejao_fileUpload_nfceproc: D:\\BACKUP NFCE GESTAO LOJA03\\NFCE2023\\NFCEPROC
+varejao_link_drive_nfceproc: 1gyCwmgpn1Ft6cej8G0-dNk8LIkTl9TFZ
+
+#NFCERESP
+matriz_nome_nfceresp: NFCERESP MATRIZ - 
+matriz_servidor_nfceresp: Y:\\NFCEPROC\\14800340000101
+matriz_hd_nfceresp: D:\\BACKUP NFCE GESTAO LOJA01\\NFCE2023\\NFCERESP
+matriz_filePath_nfceresp: D:\\BACKUP NFCE GESTAO LOJA01\\NFCE2023\\NFCERESP
+matriz_fileUpload_nfceresp: D:\\BACKUP NFCE GESTAO LOJA01\\NFCE2023\\NFCERESP
+matriz_link_drive_nfceresp: 1kogYMAwPdvnahbFoX6LeuEYQAxVe0W5M
+  #NFCEPROC
+matriz_nome_nfceproc: NFCEPROC MATRIZ - 
+matriz_servidor_nfceproc: Y:\\NFCEPROC\\14800340000101
+matriz_hd_nfceproc: D:\\BACKUP NFCE GESTAO LOJA01\\NFCE2023\\NFCEPROC
+matriz_filePath_nfceproc: D:\\BACKUP NFCE GESTAO LOJA01\\NFCE2023\\NFCEPROC
+matriz_fileUpload_nfceproc: D:\\BACKUP NFCE GESTAO LOJA01\\NFCE2023\\NFCEPROC
+matriz_link_drive_nfceproc: 13v3nquPL4ttOI34WA0JTJq1xs3mP3-wF
+
+retaguarda_nome: RETAGUARDA -
+retaguarda_server_local: Z:\\
+retaguarda_hd_local: D:\\Backup ERP - RETAGUARDA\\Backup 2023 RETAGUARDA
+retaguarda_filePath: D:\\Backup ERP - RETAGUARDA\\Backup 2023 RETAGUARDA
+retaguarda_fileUpload: D:\\Backup ERP - RETAGUARDA\\Backup 2023 RETAGUARDA
+
+kw_nome: SERVIDOR KW -
+kw_server_local: Y:\\backup
+kw_hd_local: D:\\BACKUP KW - FRENTE LOJA\\KW 2023
+kw_filePath: D:\\BACKUP KW - FRENTE LOJA\\KW 2023
+kw_fileUpload: D:\\BACKUP KW - FRENTE LOJA\\KW 2023

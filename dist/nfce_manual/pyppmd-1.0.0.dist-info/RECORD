@@ -1,0 +1,14 @@
+pyppmd-1.0.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+pyppmd-1.0.0.dist-info/LICENSE,sha256=Hn5rrlpb3jLxrlp8N6CC0asDz4k1T3-TasQL6eOaZTE,27032
+pyppmd-1.0.0.dist-info/METADATA,sha256=hkq8Ju5Pek9cEOg8pbwkwQ1vSAg5d6Enp-Hu72nuupE,5446
+pyppmd-1.0.0.dist-info/RECORD,,
+pyppmd-1.0.0.dist-info/WHEEL,sha256=TxwUeV-3HEbjjXVQ7qnUZIKQ4IinhZYV_rmkwq84M_Y,102
+pyppmd-1.0.0.dist-info/top_level.txt,sha256=oI9A6TS272sAHjryEKAiyFJkIMwC7DxWsfF7zlFviFw,7
+pyppmd/__init__.py,sha256=zmBQZ835h0hUV6kzntHAVYnJfJhc1BH85iJmuYahP_g,7401
+pyppmd/__pycache__/__init__.cpython-311.pyc,,
+pyppmd/c/__pycache__/c_ppmd.cpython-311.pyc,,
+pyppmd/c/_ppmd.cp311-win_amd64.pyd,sha256=lbjofOeB5obH3hB0vqCBslxElrAzs_dBMimcwbGdJJA,55808
+pyppmd/c/c_ppmd.py,sha256=gkSB0ciDCFL8GJZNtfwN0OxNLIdVZ75-eDge0YHUqVc,459
+pyppmd/cffi/__pycache__/cffi_ppmd.cpython-311.pyc,,
+pyppmd/cffi/cffi_ppmd.py,sha256=msTdDIdhKfwVC-8tRGfqHf3bJQwSKefMEH8saYuxuwE,20188
+pyppmd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
