@@ -15,7 +15,7 @@ Arius Sistemas Backup NFCE  - Realiza backups dos arquivos xml com informações
 <img src="https://raw.githubusercontent.com/leandroSJ/Arius-Sistemas-Backup-NFCE-v4.0/main/icon/backup-nfce.png" alt="Tela do cmd windows">
 
 > Programa desenvolvido para atender uma demanda local, com objetivo de consumir poucos recursos da máquina, projetado por Leandro SJ "Estudante e amante da tecnologia". É verdade que já existe soluções para esses problemas de backup como o próprio app do google drive, mas ele tem um pequeno defeito que é consumir muitos recursos das máquinas em que ele precisa ficar sincronizado, por isso sentir a necessidade de criar uma solução simples, rápida e prática.
-### O que o arius_backup_safe faz?
+### O que o arius_backup_nfce faz?
 
 - [x] Faz uma varredura na rede do servidor através do loop >> for root, subFolder, filename in os.walk(server)
 - [x] Consulta cada pasta e subpastas através do loop >> for folder in subFolder:
@@ -35,47 +35,53 @@ Arius Sistemas Backup NFCE  - Realiza backups dos arquivos xml com informações
 * Instale a versão mais recente do `Python` se você não tem instalado em https://www.python.org/
 * Baixe uma ide eu recomendo o VisualStudio Code por ser mais fácil de configurar você pode baixar em https://code.visualstudio.com/Download
 * Atualize a versão do pip Abra o cmd do windows e digite `python -m pip install --upgrade pip` "o pip é um gerenciador de pacotes com ele você consegue baixar as dependências do python"
-* Instale o ambiente virtual digite: `pip install virtualenv`
-* Crie seu ambiente virtual `python -m venv nome_do_ambiente` no lugar de nome_do_ambiente pode colocar env ou qualquer outro nome
+
 * Ative seu ambiente virtual abrindo o Windows Power shell como ADM e execute esse comando `Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned`
 digite S para aceitar e pronto.
-* Agora basta abrir a pasta do projeto no vscode e executar no terminal o arquivo `Activate.ps1` localizado em `nome_do_ambiente\bin\Activate.ps1`
-* Atualize o pip `python -m pip install --upgrade pip` se ja estiver atualizado ele vai informar que ja foi atualizado 
+* Agora basta abrir a pasta do projeto no vscode e executar no terminal o arquivo `Activate.ps1` localizado em `env\Scripts\Activate.ps1`
+digite esse comando para ativar o ambiente: c:\backup_nfce\env\Scripts\Activate.ps1
+* Atualize o pip `python -m pip install --upgrade pip` se ja estiver atualizado ele vai informar que ja foi atualizado.
+* mude 
 
 ## 🚀 Instalando <Backup_NFCE>
 
-Para instalar o <Backup_NFCE>, siga estas etapas:
- 
+Caso você não tenha muito conhecimento e não saiba como preparar um ambiente virtual python, siga essas etapas:
 
-```
- Suponho que já estar com seu ambiente todo preparado para instalar novos Pacotes
+baixe o python: https://www.python.org/ftp/python/3.11.1/python-3.11.1-embed-amd64.zip
 
- Vamos instalar algumas dependências:
+após fazer o download clique para instalar, na hora da instalação marque a 1ª caixinha [] para adicionar o python ao path do windows após concluir a instalação
 
- no terminal do seu ambiente virtual digite pip install -r .\requirements.txt
+Baixe a pasta backup_nfce
+após concluir o download abra o explorador de arquivos e copie ela para o disco C:\
 
- Execute o arquivo `quickstart.py` ele vai ser responsável por fazer sua autenticação no Google Drive
- Faça login com sua conta Google caso apareça algum aviso informando que O Google não verificou este app
- clique em avançar e em seguida clique em `Acessar Backup NFCE (não seguro)`
+-> entre na pasta `backup_nfce` > Acesse a pasta `dist`
+abra a pasta `backup-nfce-v4.0-2023`nessa pasta você vai encontrar o arquivo executável `backup-nfce-v4.0-2023.exe`
 
- Tenha calma não se assuste, o processo de autenticar uma aplicação que consome as apis do Google tem muita burocracia
- e exigências então eu optei por não fazer isso agora, por isso eles dizem que a aplicação não é segura porque eles não
- conseguiram verificar.
- 
- continue e faça login com seu e-mail e senha
- Agora perceba que um novo arquivo foi gerado com o nome credentials.json esse arquivo será responsavel por fazer a autenticação a cada vez que você executar a aplicação.
+clique com o botão direito em cima deste arquivo e escolha a opção `enviar para > Area de trabalho`
 
- Agora abra a pasta <config> e dite o arquivo `arius_path.yml`
+agora vá para a pasta  `config`localizada em C:\backup_nfce\config
+abra o arquivo `arius_path.yaml` com o bloco de notas e altere o local onde o servidor faz o backup dos arquivos xml. Se precisar de ajuda manda uma mensagem para mim no email leandrosj@proton.me que eu estou disposto a ajudar.
 
-filial_nome: Nome_do_Arquivo
-filial_server_local: link_do_arquivo na rede ex: -> C:\\users\meu_caminho
-filial_hd_local: local_onde_quer_copiar
-filial_compact: mesmo_local_para_compactar
-filial_filePath: mesmo_local_para_linkar_o_arquivo
-filial_googlePath: mesmo_local_para_mandar_para_google_drive
-filial_link_drive: Código da pasta -> entre na pasta do google drive e veja na url o código da pasta está sempre após o /folders/Código_da_pasta Geralmente é um monte de caracteres aleatório
+#NFCERESP
+matriz_nome_nfceresp: NFCERESP "Nome da Empresa"
+matriz_servidor_nfceresp: Local_onde_servidor_salva_os_arquivos.xml
+matriz_hd_nfceresp: Local para onde você quer mandar os arquivos xml
+matriz_filePath_nfceresp: Local para onde você quer mandar os arquivos xml
+matriz_fileUpload_nfceresp: Local para onde você quer mandar os arquivos xml
+matriz_link_drive_nfceresp: nome da pasta no google drive "ex:1kogYMAwPdvnahbFoX6LeuEYQAxVe0W5M"
 
-Feito isso basta executar seu programa se você tiver feito tudo certo ele vai iniciar o processo de Backup Em modo CLI e você pode acompanhar o processo que ele está executando
+retaguarda_nome: RETAGUARDA -
+retaguarda_server_local: Local onde fica salvo os arquivos expdate e nfe
+retaguarda_hd_local: D:\\Backup ERP - RETAGUARDA\\Backup 2023 RETAGUARDA
+retaguarda_filePath: D:\\Backup ERP - RETAGUARDA\\Backup 2023 RETAGUARDA
+retaguarda_fileUpload: D:\\Backup ERP - RETAGUARDA\\Backup 2023 RETAGUARDA
+
+kw_nome: SERVIDOR KW -
+kw_server_local: Y:\\backup
+kw_hd_local: Local para onde você quer mandar os arquivos xml
+kw_filePath: Local para onde você quer mandar os arquivos xml
+
+depois de definir os paths corretamente teste o programa. clique para executar o backup-nfce-v4.00-2023.exe que está na sua área de trabalho e veja o resultado.
 ```
 
 ## 📫 Contribuindo para <Backup_NFE>
