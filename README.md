@@ -60,7 +60,7 @@ abra a pasta `backup-nfce-v4.0-2023`nessa pasta você vai encontrar o arquivo ex
 clique com o botão direito em cima deste arquivo e escolha a opção `enviar para > Area de trabalho`
 
 agora vá para a pasta  `config`localizada em C:\backup_nfce\config
-abra o arquivo `arius_path.yaml` com o bloco de notas e altere o local onde o servidor faz o backup dos arquivos xml. Se precisar de ajuda manda uma mensagem para mim no email leandrosj@proton.me que eu estou disposto a ajudar.
+abra o arquivo `arius_path.yaml` com o bloco de notas e altere o local onde o servidor faz o backup dos arquivos xml.
 
 
 <img src="https://raw.githubusercontent.com/leandroSJ/Arius-Sistemas-Backup-NFCE-v4.0/main/icon/Captura de tela de 2023-01-11 23-02-15.png" alt="Tela do cmd windows">
