@@ -1,5 +1,5 @@
 # Arius-Sistemas-Backup-NFCE-v3.0
-Realiza backups dos arquivos xml da Nota fiscal do Consumidor Eletrônica" NFCE 
+Realiza backups dos arquivos xml da Nota fiscal do Consumidor Eletrônica" NFCE, dos arquivos de configuração do servidor ERP, e banco de dados.
 
 # Arius_backup_NFCE - feito Para usuários do sistema Arius
 ## Caso tenha interesse entre em contato que eu te explico como funciona
